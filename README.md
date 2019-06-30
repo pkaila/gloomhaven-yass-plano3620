@@ -11,3 +11,5 @@ How to use:
 4. Open the HTML file(s) in a browser and print
 
 **NOTE:** I have only tested these pages on Firefox. You might need to reduce print margins to zero in the browser to be able to print the inserts correctly.
+
+**NOTE:** The Status Tokens inset is still missing some icons as they were not readily available.
