@@ -34,7 +34,11 @@
 	grid-column: span 1;
 	grid-row: span 1;
 	place-self: center;
-	font-size: 12.5px;	
+	font-size: 12.5px;
+}
+
+.item__label-bosses {
+	font-size: 50px;
 }
 
 .item__count {
