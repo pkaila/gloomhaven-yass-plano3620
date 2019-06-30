@@ -1,0 +1,55 @@
+
+.box__slot {
+	display: grid;
+	grid-gap: 0;
+
+	background-color: white;
+
+	align-self: stretch;
+	text-align: center;
+}
+
+.box__slot_1x1 {
+	grid-column: span 1;
+	grid-row: span 1;
+}
+
+.box__slot_2x1 {
+	grid-column: span 2;
+	grid-row: span 1;
+}
+
+.box__slot_3x1 {
+	grid-column: span 3;
+	grid-row: span 1;
+}
+
+.box__slot_4x1 {
+	grid-column: span 4;
+	grid-row: span 1;
+}
+
+.box__slot_4x2 {
+	grid-column: span 4;
+	grid-row: span 2;
+}
+
+.box__slot_8x1 {
+	grid-column: span 8;
+	grid-row: span 1;
+}
+
+.box__slot_multi-item-2x1 {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;	
+}
+
+.box__slot_multi-item-3x1 {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;	
+}
+
+.box__slot_multi-item-2x2 {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}

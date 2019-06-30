@@ -1,0 +1,44 @@
+.item {
+	display: grid;	
+	grid-template-columns: 1fr;
+}
+
+.item_single {
+	grid-template-rows: 5fr 0.6fr 0.6fr;
+}
+
+.item_dual {
+	grid-template-rows: repeat(2, 2fr 0.6fr) 0.6fr;
+}
+
+.item__icon {
+	grid-column: span 1;
+	grid-row: span 1;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.item__icon__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.9);
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.item__label {
+	grid-column: span 1;
+	grid-row: span 1;
+	place-self: center;
+	font-size: 12.5px;	
+}
+
+.item__count {
+	grid-column: span 1;
+	grid-row: span 1;
+	place-self: center;
+	font-size: 10px;	
+}

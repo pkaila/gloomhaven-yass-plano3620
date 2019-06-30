@@ -1,0 +1,35 @@
+.box__title {
+	grid-column: span 12;
+	grid-row: span 4;
+	background-color: white;
+
+	display: grid;
+	grid-template-columns: 35mm 1fr 35mm;
+	grid-template-rows: 35mm 1fr 1fr 35mm;
+}
+
+.box__title__icon {
+	grid-column: 2;
+	grid-row: 2;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.box__title__icon__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -25%) scale(0.9);
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.box__title__label {
+	grid-column: 2;
+	grid-row: 3;
+
+	place-self: center;
+	font-size: 80px;
+}

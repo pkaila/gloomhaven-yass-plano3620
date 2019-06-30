@@ -1,0 +1,33 @@
+@page {
+	size: A4 landscape;
+	margin 0cm;
+}
+
+@font-face {
+	font-family: "Pirata One";
+	src: local("Pirata One");
+	font-style: regular;
+	font-weight: regular;
+}
+
+@media screen {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+@media print {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text {
+	font-family: "Pirata One";
+}
