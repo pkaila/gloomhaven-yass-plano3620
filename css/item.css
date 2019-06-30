@@ -14,6 +14,7 @@
 .item__icon {
 	grid-column: span 1;
 	grid-row: span 1;
+	margin: 0.5mm;
 
 	position: relative;
 	overflow: hidden;
@@ -26,7 +27,7 @@
 	transform: translate(-50%, -50%) scale(0.9);
 	display: block;
 	max-height: 100%;
-	max-width: 100%;
+	max-width: 120%;
 }
 
 .item__label {
